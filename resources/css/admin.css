@@ -1,0 +1,93 @@
+@import 'all.css';
+@import 'fonticons.css';
+/*@import 'bootstrap.css';*/
+@import 'sb-admin-2.css';
+@import 'dataTables.bootstrap4.css';
+@import 'bootstrap-multiselect.css';
+@import 'suneditor.css';
+@import 'suneditor-contents.css';
+@import 'xmm.css';
+
+.sidebar-brand-icon {
+    display: none;
+}
+.sidebar-toggled .sidebar-brand-icon {
+    display: block;
+}
+.custom-select {
+    cursor: pointer;
+}
+.custom-select:focus {
+    box-shadow: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.page-link:focus {
+    box-shadow: none;
+}
+
+/*--------------------------------------------------------------
+	Preloader
+--------------------------------------------------------------*/
+.page-loader {
+    position: fixed;
+    background: rgba(0,0,0,0.6);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 9998;
+}
+  
+.loader {
+    position: absolute;
+    border-left: 4px solid #f29f46;
+    border-top: 4px solid #98bf84;
+    border-right: 4px solid #98bf84;
+    border-bottom: 4px solid #98bf84;
+    height: 46px;
+    width: 46px;
+    left: 50%;
+    top: 50%;
+    margin: -23px 0 0 -23px;
+    text-indent: -9999em;
+    font-size: 10px;
+    z-index: 9999;
+    -webkit-animation: load 0.8s infinite linear;
+    -moz-animation: load 0.8s infinite linear;
+    -ms-animation: load 0.8s infinite linear;
+    -o-animation: load 0.8s infinite linear;
+    animation: load 0.8s infinite linear;
+}
+  
+.loader,
+.loader:after {
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+}
+  
+@-webkit-keyframes load {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}
+  
+@keyframes load {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}
+  
+  

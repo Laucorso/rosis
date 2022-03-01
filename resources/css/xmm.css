@@ -1,0 +1,103 @@
+/* XMMDropbox CSS */
+.hidden {
+    display: none !important;
+}
+.xmmdropbox {
+    background-color: rgba(229, 231, 235, 1);
+    --stripes-color: rgba(255, 255, 255, 0.4);
+    background-image: linear-gradient(45deg, var(--stripes-color) 12.50%, transparent 12.50%, transparent 50%, var(--stripes-color) 50%, var(--stripes-color) 62.50%, transparent 62.50%, transparent 100%);
+    background-size: 5.66px 5.66px;
+    color: rgba(75, 85, 99, 1);
+    width: 100%;
+    min-height: 40px;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: rgba(209, 213, 219, 1);
+    cursor: pointer;
+	display: grid;
+}
+.xmmdropbox.preview {
+    min-height: 90px;	
+}	
+.xmmdropbox.multi {
+    background-color: rgba(229, 231, 235, 1);
+    --stripes-color: rgba(255, 255, 255, 0.4);
+    background-image: linear-gradient(45deg, var(--stripes-color) 12.50%, transparent 12.50%, transparent 50%, var(--stripes-color) 50%, var(--stripes-color) 62.50%, transparent 62.50%, transparent 100%);
+    background-size: 5.66px 5.66px;
+    color: rgba(75, 85, 99, 1);
+    width: 100%;
+    min-height: 100px;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: rgba(209, 213, 219, 1);
+    cursor: pointer;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.xmmdropbox:hover {
+    background-color: rgba(253, 230, 138, 1);
+}
+.xmmdropbox_text {
+    position: relative;
+    display: block;
+    margin: revert;
+	width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.xmmdropbox_active {
+    background-color: rgba(253, 230, 138, 1);
+}
+.xmmdropbox_image {
+    height: 100%;
+    width: 100%;
+}
+.xmmdropbox .xmmdropbox-image {
+  position: relative;
+  overflow: hidden;
+  margin: .25rem;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+}
+.xmmdropbox .xmmdropbox-image img {
+    width: 100%;
+}
+.xmmdropbox .xmmdropbox-image .xmmdropbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.xmmdropbox .xmmdropbox-image .xmmdropbox-overlay .xmmdropbox-icon {
+    margin: 4%;
+    position: relative;
+    display: inline-block;
+    width: 16%;
+    height: 16%;
+    fill: #0067f4;
+    z-index: 5;
+}
+.xmmdropbox .xmmdropbox-image .xmmdropbox-overlay .xmmdropbox-icon:hover {
+    margin: 0px;
+    width: 24%;
+    height: 24%;
+    fill: #0119a5;
+}
+.xmmdropbox .xmmdropbox-image:hover .xmmdropbox-overlay {
+    opacity: 1;
+    visibility: visible; 
+}

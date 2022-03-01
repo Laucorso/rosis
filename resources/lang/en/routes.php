@@ -1,0 +1,27 @@
+<?php
+
+return array (
+  'about-us' => 'about-rosistirem',
+  'privacy' => 'privacy-policy',
+  'terms' => 'legal-advice',
+  'urgent' => 'same-day-delivery',
+  'show/{id}' => 'show/{id}',
+  'buy/{id}' => 'buy/{id}',
+  'cart' => 'cart',
+  'bouquets' => 'bouquets',
+  'plants' => 'plants',
+  'bouquet-complements' => 'complements-bouquets',
+  'plant-complements' => 'complements-plants',
+  'contact' => 'contact',
+  'events' => 'events',
+  'pay' => 'payment',
+  'my-account' => 'my-account',
+  'login' => 'sign-in',
+  'logout' => 'sign-off',
+  'shop' => 'shop',
+  'special-ocasions/{id}' => 'special-ocasions/{id}',
+  'valentines-day' => 'valentines-day',
+  'funerary-art' => 'funerary-art',
+  'weddings' => 'weddings',
+  'birthdays' => 'birthdays',
+);

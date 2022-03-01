@@ -1,0 +1,98 @@
+@font-face {
+	font-family: "xfont";
+	src: url("../fonts/fonticons.woff2") format("woff2");
+}
+
+.xf {
+	line-height: 1;
+}
+
+.xf:before {
+	font-family: xfont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: center;
+}
+
+.xf-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -0.25em; 
+}
+
+.xf-__f101:before {
+	content: "\f101";
+}
+.xf-__f102:before {
+	content: "\f102";
+}
+.xf-__f103:before {
+	content: "\f103";
+}
+.xf-_f104:before {
+	content: "\f104";
+}
+.xf-bullet-o:before {
+	content: "\f105";
+}
+.xf-bunch-flowers:before {
+	content: "\f106";
+}
+.xf-caret-left:before {
+	content: "\f107";
+}
+.xf-caret-right:before {
+	content: "\f108";
+}
+.xf-cart:before {
+	content: "\f109";
+}
+.xf-cart4:before {
+	content: "\f10a";
+}
+.xf-close:before {
+	content: "\f10b";
+}
+.xf-delete:before {
+	content: "\f10c";
+}
+.xf-dropdown-close:before {
+	content: "\f10d";
+}
+.xf-dropdown-open:before {
+	content: "\f10e";
+}
+.xf-eye:before {
+	content: "\f10f";
+}
+.xf-facebook:before {
+	content: "\f110";
+}
+.xf-filter:before {
+	content: "\f111";
+}
+.xf-go-top:before {
+	content: "\f112";
+}
+.xf-instagram:before {
+	content: "\f113";
+}
+.xf-lang:before {
+	content: "\f114";
+}
+.xf-star-fill:before {
+	content: "\f115";
+}
+.xf-star-half:before {
+	content: "\f116";
+}
+.xf-star:before {
+	content: "\f117";
+}
+.xf-user:before {
+	content: "\f118";
+}
+.xf-youtube:before {
+	content: "\f119";
+}
+

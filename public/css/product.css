@@ -1,0 +1,144 @@
+.number-input input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}   
+.number-input input[type=number]::-webkit-inner-spin-button,
+.number-input input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}   
+.number-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+.number-input button:before,
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.number-input input[type=number] {
+    text-align: center;
+}
+.number-input.number-input {
+    border: 1px solid #ced4da;
+    width: 8rem;
+    border-radius: 0;
+}
+.number-input.number-input button {
+    width: 2.6rem;
+    height: .7rem;
+}
+.number-input.number-input button.minus {
+    padding-left: 6px;
+}
+.number-input.number-input button:before,
+.number-input.number-input button:after {
+    width: .7rem;
+    background-color: #495057;
+}
+.number-input.number-input input[type=number] {
+    max-width: 3rem;
+    padding: .5rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 2rem;
+    color: #495057;
+}
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color:transparent) {   
+        .number-input.def-number-input.safari_only button:before,
+        .number-input.def-number-input.safari_only button:after {
+            margin-top: -.3rem;
+        }
+    }
+}
+.flex-control-nav {
+    position: relative;
+    bottom: 0;
+}
+.flex-direction-nav {
+    display: none;
+}
+.flex-control-nav > li:first-child {
+    margin-left: 0;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 40%;
+    display: block !important;
+    border:0px solid black;
+}
+.owl-prev {
+    margin-left: -20px;
+}
+.owl-next {
+    right: -20px;
+}
+.item {
+    height: 100%;
+    border: 2px solid #dee2e6 !important;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.item .text {
+    line-height: 0.95rem;
+    min-height: 50px;
+    margin: 5px 0;
+}
+.item .price {
+    color: #dd9933;
+}
+.item .price::after {
+    content: ' €';
+}
+.item .price::before {
+    content: '+ ';
+}
+.item.selected {
+    border: 2px solid orange !important;
+}
+.item.selected::after {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f14a";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+    right: 0;
+    height: 28px;
+    background: orange;
+    font-size: 16px;
+    width: 28px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0 5px 0px 5px;
+    padding-top: 0;
+}
+.work-item div {
+    cursor: pointer;
+}
+.work-item .selected {
+    background-color: orange;
+}

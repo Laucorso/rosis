@@ -1,0 +1,27 @@
+<?php
+
+return array (
+  'about-us' => 'sobre-rosistirem',
+  'privacy' => 'politica-de-privacidad',
+  'terms' => 'aviso-legal',
+  'urgent' => 'envio-urgente',
+  'show/{id}' => 'ver/{id}',
+  'buy/{id}' => 'comprar/{id}',
+  'cart' => 'carrito',
+  'bouquets' => 'ramos-de-flores',
+  'plants' => 'plantas',
+  'bouquet-complements' => 'complementos-ramos-de-flores',
+  'plant-complements' => 'complementos-plantas',
+  'contact' => 'contacto',
+  'events' => 'eventos',
+  'pay' => 'pago',
+  'my-account' => 'mi-cuenta',
+  'login' => 'iniciar-sesion',
+  'logout' => 'cerrar-sesion',
+  'shop' => 'tienda',
+  'special-ocasions/{id}' => 'ocasiones-especiales/{id}',
+  'valentines-day' => 'san-valentin',
+  'funerary-art' => 'arte-funerario',
+  'weddings' => 'bodas',
+  'birthdays' => 'cumpleanos',
+);
